@@ -54,7 +54,7 @@ def mashup(singer_name, num_videos, audio_duration, output_filename):
 
 if __name__ == "__main__":
     if len(sys.argv) != 6:
-        print("Usage: python 102103470.py <SingerName> <NumberOfVideos> <AudioDuration> <OutputFileName>")
+        print("Usage: python 102103461.py <SingerName> <NumberOfVideos> <AudioDuration> <OutputFileName>")
         sys.exit(1)
 
     singer_name = sys.argv[1]
